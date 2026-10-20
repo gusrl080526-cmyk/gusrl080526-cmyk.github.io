@@ -223,7 +223,137 @@
 //     }
 // }
 
-let arr = ["banana", "apple", "orange"];
-for(let i = 0; i < arr.length; i++){
-    console.log(arr[i]);
-}
+// let arr = ["banana", "apple", "orange"];
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// let obj = {name:"철수", age:"20"};
+// for(let key in obj){
+//     console.log(key +":" + obj[key]);
+// }
+
+// let arr = ["arange", "banana", "apple"];
+// for(let index in arr){
+//     console.log(index + ": " + arr[index]);
+// }
+
+// for(let i = 0; i < 10; i++){
+//     console.log(i);
+//     if(i === 5) break;
+// }
+
+// let obj = {name:"철수", age:20};
+// for(let key in obj){
+//     if(key === "age") break;
+//     console.log(obj[key]);
+// }
+
+// for(let i = 1; i <= 10; i++){
+//     if(i % 2 === 1) continue;
+//     console.log(i);
+// }
+
+// for(let i = 1; i <= 9; i++){
+//     console.log(`3* ${i} = ${3 * i}`);
+// }
+
+// function gugudan(){ // 함수 시작
+//     for(let i = 1; i <= 9; i++){
+//         console.log(`3 * ${i} = ${3 * i}`);
+//     }
+// }
+
+// function gugudan(){
+//     for(let i = 1; i <= 9; i++){
+//         console.log(`3 * ${i} = ${3 * i}`);
+//     }
+// }
+// gugudan();
+
+// const gugudan = function gugudan(){
+//     for(let i = 1; i <= 9; i++){
+//         console.log(`3 * ${i} = ${3 * i}`);
+//     }
+// }
+// gugudan();
+
+// const gugudan = function(){
+//     for(let i=1; i<=9; i++){
+//         console.log(`3 * ${i} = ${3 * i}`);
+//     }
+// };
+// gugudan();
+
+// #
+// const gugudan = function naming(){
+//     for(let i = 1; i <= 9; i++){
+//     }
+// };
+// naming();
+
+// const gugudan = () => {
+//     for(let i = 1; i <= 9; i++){
+//         console.log(`3 * ${i} = ${3 * i}`);
+//     }
+// };
+// gugudan();
+
+// function gugudan5(){
+//     for(let i=1; i<=9; i++){
+//         console.log(`5 * ${i} = ${5 * i}`);
+//     }
+// }
+// function gugudan8(){
+//     for(let i=1; i<=9; i++){
+//         console.log(`8 * ${i} = {8 * i}`);
+//     }
+// }
+ 
+// function gugudan(dan){
+//     for(let i = 1; i <= 9; i++){
+//         console.log(`${dan} * ${i} = ${dan * i}`);
+//     }
+// }
+// gugudan(3);
+// gugudan(5);
+// gugudan(8);
+
+// function sum(a = 10, b = 10){
+//     console.log(a, b);
+// }
+// sum();
+// #
+// function sum(sum1, sum2){
+//     let result = num1 + num2;
+//     console.log("inner:" + result);
+// }
+// sum(10, 20);
+
+// function sum(num1, num2){
+//     let result = num1 + num2;
+// }
+// sum(10, 20);
+// console.log("out: " + result);
+
+// function sum(num1,num2){
+//     let result = num1 + num2;
+//     return result;
+// }
+// const result = sum(10, 20);
+// console.log("out: "+ result);
+
+// function sum(num1, num2){
+//     return num1 + num2;
+// }
+// const result = sum(10, 20);
+// console.log("out: "+ result);
+
+// function sum(num1, num2){
+//      if(typeof num1 !== "number" || typeof num2 !== "number"){
+//         return;
+//     }
+//     return num1 + num2;
+// }
+// let result = sum("a", "b");
+// console.log("out: " + result);
