@@ -357,3 +357,94 @@
 // }
 // let result = sum("a", "b");
 // console.log("out: " + result);
+// let a = 10;
+// function sum(){
+//     console.log(`함수 내부: ${a}`);
+// }
+// sum();
+// console.log(`함수 외부: ${a}`);
+
+// function sum(){
+//     let a = 10;
+//     console.log(`함수 내부: ${a}`);
+// }
+// sum();
+// console.log(`함수 외부: ${a}`);
+
+// let a = 10;
+// {
+//     let b = 20;
+//     console.log(`코드 블록 외부 a: ${a}`);
+//     console.log(`코드 블록 외부 b: ${b}`);
+// }
+// console.log(`코드 블록 외부 a: ${a}`);
+// console.log(`코드 블록 외부 b: ${b}`);
+
+// var a = 10;
+// {
+//     var b = 20;
+//     console.log(`코드 블록 내부 a: ${a}`);
+//     console.log(`코드 블록 내부 b: ${b}`);
+// }
+// console.log(`코드 블록 외부 a: ${a}`);
+// console.log(`코드 블록 외부 b: ${b}`);
+
+// let a = 10;
+// const b = 20;
+// function sum(){
+//     let a = 50;
+//     const b = 70;
+//     console.log(`함수 내부 a: ${a}`);
+//     console.log(`함수 내부 b: ${b}`);
+// }
+// sum();
+
+// printHello();
+// function printHello(){
+//     console.log("Hello");
+// }
+// #
+// function pritnHello(){
+//     console.log("Hello");
+// }
+// printHello();
+// #
+// printHello();
+// var printHello = function pirntHello(){
+//     console.log("Hello");
+// }
+
+// var printHello;
+// printHello();
+// printHello = function printHello(){
+//     console.log("Hello");
+// }
+
+// const init = function(){
+//     console.log("initialized!");
+// }
+
+// (function init(){
+//     console.log("initialized!");
+// })();
+
+// #
+// (function init(){
+//     console.log("initialized!");
+// })();
+// init();
+
+// (function sum(a, b){
+//     console.log(a + b);
+// })(10, 20);
+
+// const result = (function(a, b){
+//     function init(){
+//         return doSum(a, b);
+//     }
+//     function doSum(a, b){
+//         return a + b;
+//     }
+//     return init();
+// })(10, 20);
+// console.log(result);
