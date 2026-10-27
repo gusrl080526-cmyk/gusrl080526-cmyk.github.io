@@ -357,94 +357,186 @@
 // }
 // let result = sum("a", "b");
 // console.log("out: " + result);
-// let a = 10;
-// function sum(){
-//     console.log(`함수 내부: ${a}`);
-// }
-// sum();
-// console.log(`함수 외부: ${a}`);
 
-// function sum(){
-//     let a = 10;
-//     console.log(`함수 내부: ${a}`);
-// }
-// sum();
-// console.log(`함수 외부: ${a}`);
+// const person = {
+//     name:"Hong Gildong"
+// };
 
-// let a = 10;
-// {
-//     let b = 20;
-//     console.log(`코드 블록 외부 a: ${a}`);
-//     console.log(`코드 블록 외부 b: ${b}`);
-// }
-// console.log(`코드 블록 외부 a: ${a}`);
-// console.log(`코드 블록 외부 b: ${b}`);
+// const person = {
+//     name:["Hong", "Gildong"],
+//     age:20,
+//     isAdult:true
+// };
 
-// var a = 10;
-// {
-//     var b = 20;
-//     console.log(`코드 블록 내부 a: ${a}`);
-//     console.log(`코드 블록 내부 b: ${b}`);
-// }
-// console.log(`코드 블록 외부 a: ${a}`);
-// console.log(`코드 블록 외부 b: ${b}`);
-
-// let a = 10;
-// const b = 20;
-// function sum(){
-//     let a = 50;
-//     const b = 70;
-//     console.log(`함수 내부 a: ${a}`);
-//     console.log(`함수 내부 b: ${b}`);
-// }
-// sum();
-
-// printHello();
-// function printHello(){
-//     console.log("Hello");
-// }
-// #
-// function pritnHello(){
-//     console.log("Hello");
-// }
-// printHello();
-// #
-// printHello();
-// var printHello = function pirntHello(){
-//     console.log("Hello");
-// }
-
-// var printHello;
-// printHello();
-// printHello = function printHello(){
-//     console.log("Hello");
-// }
-
-// const init = function(){
-//     console.log("initialized!");
-// }
-
-// (function init(){
-//     console.log("initialized!");
-// })();
-
-// #
-// (function init(){
-//     console.log("initialized!");
-// })();
-// init();
-
-// (function sum(a, b){
-//     console.log(a + b);
-// })(10, 20);
-
-// const result = (function(a, b){
-//     function init(){
-//         return doSum(a, b);
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     age:20,
+//     isAdult:true,
+//     printInfo:function(){
+//         console.log('printInfo');
 //     }
-//     function doSum(a, b){
-//         return a + b;
+// };
+
+// const person = {
+//     "phone number":"010-000-0000"
+// };
+
+// const person = {
+//     name:"Hong Gildong",
+//     age:20
+// };
+// console.log(person["name"]);
+// console.log(person["age"]);
+
+// #
+// const person = {
+//     name:"Hong Gildong"
+// };
+// console.log(person[name]);
+
+// const person = {
+//     name:{
+//         firstName:"gildong",
+//         lastName:"Hong"
+//     },
+//     likes:{"apple", "samsung"},
+//     printHello:function(){
+//         return "hello";
 //     }
-//     return init();
-// })(10, 20);
-// console.log(result);
+// };
+
+// console.log(person["name"]); // { firstName:'Gildong', lastName:'Hong'}
+
+// console.log(person["name"]["firstName"]);
+
+// console.log(person["likes"]); // [ 'apple' , 'samsung']
+
+// console.log(person["likes"][0]); // apple
+// console.log(person["likes"][1]); // samsung
+
+// console.log(person["printHello"]); // [Function: printHello]
+
+// console.log(person["printHello"]()); //hello
+
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     age:20,
+//     likes:["apple", "samsung"],
+//     printHello:function(){
+//         return "hello";
+//     }
+// };
+// console.log(person.name.lastName);
+// console.log(person.age);
+// console.log(person.likes[0]);
+// console.log(person.printHello());
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person.name = "Kim";
+// console.log(person.name);
+
+// const person = {};
+// console. log(person);
+// person.name = "Hong Gildong";
+// console.log(person);
+
+// const person = {};
+// person.name = {
+//     firstName:"GilDong",
+//     lastName:"Hong"
+// };
+// person.likes = ["apple", "samsung"];
+// person.printHello = function(){
+//     return  "hello";
+// }
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// delete person["name"];
+// console.log(person);
+
+// let num = 10;
+// let copyNum = num;
+
+// let num = 10
+// let copyNum = num;
+// num = 20;
+// console.log(num);
+// console.log(copyNum);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person = {
+//     name:"Sucoding"
+// };
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person,name = "Hong";
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// const copyPerson = person;
+// person.name = "Hong";
+// console.log(person.name);
+// console.log(copyPerson.name);
+
+// const student0bj = {
+//     name:"John",
+//     age:20,
+// };
+// student0bj.gender = "female";
+// delete student0bj.age;
+// console.log(student0bj)
+
+// const pw = "124";
+// if(pw.length < 4){
+//     console.log("비밀번호는 최소 4자리 이상 입력해 주세요.");
+// }
+
+// const email = "test!naver.com";
+// if(email.includes("@") === false){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+// const email = "test!naver.com";
+// if(email.index0f("@") === -1){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+// const arr = [10, 20, 30];
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// const arr = [10, 20, 30, 40];
+// arr.push(50);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.unshift(0);
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+
+// const arr = [10, 20, 30, 40];
+// arr.forEach(function(v){
+//     console.log(v);
+// });
+// console.log(arr);
