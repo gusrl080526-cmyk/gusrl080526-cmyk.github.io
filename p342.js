@@ -540,3 +540,17 @@
 //     console.log(v);
 // });
 // console.log(arr);
+// function sum(radius, pi) {
+//     let result = radius * radius * pi;
+//     console.log(result);
+// }
+// sum(5, 3.14);
+
+// let arr2 = ["3", "6", "9", "12", "15"];
+// function num(arr){
+//     let max=arr[0];
+//     for(let i = 0; i < arr.length; i++){
+//         console.log(arr[max])
+//     }
+// }
+// num(arr2);
