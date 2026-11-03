@@ -554,3 +554,47 @@
 //     }
 // }
 // num(arr2);
+// let arr2 = [30, 20, 2];
+// //let arr2 = ["3", "30", "9", "29" ,"3"];
+// function num(arr){
+//     let max = arr[0];
+
+
+//     for(let n = 1;n < arr.length;n+=1){
+//          if(max < arr[n])
+//         {
+//             max = arr[n];
+//         }
+//     }
+//     return max;
+// }
+// const max2 = num(arr2)
+// console.log (max2);
+
+
+
+
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n];
+    // }
+    // n+=1;
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n]
+    // }
+    // n+=1;
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n]
+    // }
+    // n+=1;
+
+
+
+    // for(let i = 0; i < arr.length; i++){
+    //     console.log (arr[max])
+    // }
