@@ -598,3 +598,16 @@
     // for(let i = 0; i < arr.length; i++){
     //     console.log (arr[max])
     // }
+
+
+for (let i = 1; i < 10; itt){
+     for (let k = 0; k < 10; k++){
+          for (let j = 0; j < 10; j++){
+               let sum = (i * i * 1) + (k * k * k) + (j * j * j);
+               let currentNumber = (1 * 100) + (k * 10) + j;
+               if (sum === currentNumber) {
+               console. log (currentNumber) ;
+               }
+          }
+     }
+}
