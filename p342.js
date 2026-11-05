@@ -599,15 +599,112 @@
     //     console.log (arr[max])
     // }
 
+// let arr2 = [30, 20, 2];
+// //let arr2 = ["3", "30", "9", "29" ,"3"];
+// function num(arr){
+//     let max = arr[0];
 
-for (let i = 1; i < 10; itt){
-     for (let k = 0; k < 10; k++){
-          for (let j = 0; j < 10; j++){
-               let sum = (i * i * 1) + (k * k * k) + (j * j * j);
-               let currentNumber = (1 * 100) + (k * 10) + j;
-               if (sum === currentNumber) {
-               console. log (currentNumber) ;
-               }
-          }
-     }
-}
+
+//     for(let n = 1;n < arr.length;n+=1){
+//          if(max < arr[n])
+//         {
+//             max = arr[n];
+//         }
+//     }
+//     return max;
+// }
+// const max2 = num(arr2)
+// console.log (max2);
+
+
+
+
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n];
+    // }
+    // n+=1;
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n]
+    // }
+    // n+=1;
+
+    // if(max < arr[n])
+    // {
+    //     max = arr[n]
+    // }
+    // n+=1;
+
+
+
+    // for(let i = 0; i < arr.length; i++){
+    //     console.log (arr[max])
+    // }
+
+
+// function sum(m,kg ) {
+//     let result = kg/ (m * m);
+//     console.log(result);
+//     if(result >= 26){
+//         return "비만";
+//     }
+//     else if(result >= 24 ){
+//         return "과체중";
+//     }
+//     else if(result >= 18.5 ){
+//         return "정상"
+//     }    
+//     else {
+//         return "저체중"
+//     }
+    
+// }
+// res = sum(1.78,65);
+// console.log(res);
+
+// const person = {
+//     name:["Hong", "Gildong"],
+//     age:20,
+//     isAdult:true
+// };
+// console.log(person)
+
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     age:20,
+//     isAdult:true,
+//     printInfo:function(){
+//         console.log('printInfo');
+//     }
+// };
+// console.log(person)
+
+// const person = {
+// "phone number":"010-000-0000"
+// };
+// console.log(person)
+
+// const person = {
+//     name:"Hong Gildong",
+//     age:20
+// };
+// console.log(person["name"]);
+// console.log(person["age"]);
+
+const person = {
+    name:{
+        firstName:"Gildong",
+        lastName:"Hong"
+    },
+    likes:["apple","samsung"],
+    printHello:function(){
+        return " hello";
+    }
+};
+console.log(person )
