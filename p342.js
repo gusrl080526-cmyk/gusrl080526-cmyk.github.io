@@ -540,64 +540,18 @@
 //     console.log(v);
 // });
 // console.log(arr);
+        
 // function sum(radius, pi) {
 //     let result = radius * radius * pi;
 //     console.log(result);
 // }
 // sum(5, 3.14);
 
-// let arr2 = ["3", "6", "9", "12", "15"];
-// function num(arr){
-//     let max=arr[0];
-//     for(let i = 0; i < arr.length; i++){
-//         console.log(arr[max])
-//     }
-// }
-// num(arr2);
-// let arr2 = [30, 20, 2];
-// //let arr2 = ["3", "30", "9", "29" ,"3"];
-// function num(arr){
-//     let max = arr[0];
-
-
-//     for(let n = 1;n < arr.length;n+=1){
-//          if(max < arr[n])
-//         {
-//             max = arr[n];
-//         }
-//     }
-//     return max;
-// }
-// const max2 = num(arr2)
-// console.log (max2);
 
 
 
 
 
-    // if(max < arr[n])
-    // {
-    //     max = arr[n];
-    // }
-    // n+=1;
-
-    // if(max < arr[n])
-    // {
-    //     max = arr[n]
-    // }
-    // n+=1;
-
-    // if(max < arr[n])
-    // {
-    //     max = arr[n]
-    // }
-    // n+=1;
-
-
-
-    // for(let i = 0; i < arr.length; i++){
-    //     console.log (arr[max])
-    // }
 
 // let arr2 = [30, 20, 2];
 // //let arr2 = ["3", "30", "9", "29" ,"3"];
@@ -697,14 +651,268 @@
 // console.log(person["name"]);
 // console.log(person["age"]);
 
-const person = {
-    name:{
-        firstName:"Gildong",
-        lastName:"Hong"
-    },
-    likes:["apple","samsung"],
-    printHello:function(){
-        return " hello";
-    }
-};
-console.log(person )
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     likes:["apple","samsung"],
+//     printHello:function(){
+//         return " hello";
+//     }
+// };
+// console.log(person["name"]["firstName"]);
+// console.log(person["likes"]);
+
+// console.log(person["likes"][0]);
+// console.log(person["likes"][1]);
+
+// console.log(person["printHello"]);
+
+// console.log(person["printHello"]());
+
+// console.log(person["printHello"]());
+
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     age:20,
+//     likes:["apple", "samsung"],
+//     printHello:function(){
+//         return "hello";
+//     }
+// };
+// console.log(person.name.lastName);
+// console.log(person.age);
+// console.log(person.likes[0]);
+// console.log(person.printHello());
+
+// const person = {
+//     name:{
+//         firstName:"Gildong",
+//         lastName:"Hong"
+//     },
+//     age:20,
+//     likes:["apple", "samsung"],
+//     printHello:function(){
+//         return "hello";
+//     }
+// };
+// console.log(person.name.lastName);
+// console.log(person.age);
+// console.log(person.likes[0]);
+// console.log(person.printHello());
+// #
+// const person = {
+//     name:"Hong Gildong"
+// };
+// console.log(person."name");
+
+// const person = {
+//     "phone number":"010-000-0000"
+// };
+// console.log(person["phone number"]);
+
+// const person = {
+//     "phone number":"010-000-0000"
+// };
+// console.log(person["phone number"]);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person.name = "kim";
+// person["name"] = "kim";
+// console.log(person.name);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person.name = "Kim";
+// person["name"] = "Kim";
+// console.log(person.name);
+
+// const person = {};
+// console.log(person);
+// person.name = "Hong Gildong";
+// console.log(person);
+
+// const person = {};
+// console.log(person);
+// person.name = "Hong Gildong";
+// console.log(person);
+
+// const person = {};
+// console.log(person);
+// person.name = "Hong Gildong";
+// console.log(person);
+
+// const person = {};
+// person.name = {
+//     firstName:"GilDong",
+//     lastName:"Hong"
+// };
+// person.likes = ["apple", "samsung"];
+// person.printHello = function(){
+//     return "hello";
+// }
+// console.log(person);
+
+// const person = {};
+// person.name = {
+//     firstName:"GilDong",
+//     lastName:"Hong"
+// };
+// person.likes = ["apple", "samsung"];
+// person.printHello = function(){
+//     return "hello";
+// }
+// console.log(person);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// delete person.name;
+// delete person["name"]
+// console.log(person);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// delete person.name;
+// console.log(person);
+
+// let num = 10;
+// let copyNum = num;
+// num = 20;
+// console.log(num);
+// console.log(copyNum);
+
+// let num = 10;
+// let copyNum = num;
+// num = 20;
+// console.log(num);
+// console.log(copyNum);
+
+// const person ={
+//     name:"Hong Gildong"
+// };
+// console.log(person);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// console.log(person);
+// #
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person = {
+//     name:"Sucoding"
+// // };
+// const person = {
+//     name:"Hong Gildong"
+// };
+// person.name = "Hong";
+// console.log(person);
+
+// const person = {
+//     name:"Hong Gildong"
+// };
+// const copyPerson = person;
+// person.name = "Hong";
+// console.log(person.name);
+// console.log(copyPerson.name);
+
+// const pw = "124";
+// if(pw.length  < 4){
+//     console.log("비밀번호는 최소 4자리 이상 입력해 주세요.");
+// }
+
+// const email = "test!naver.com";
+// if(email.includes("@") === false){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+
+// const pw = "124";
+// if(pw.length < 4){
+//     console.log("비밀번호는 최소 4자리 이상 입력해 주세요.");
+// }
+
+// const email = "test!naver.com";
+// if(email.includes("@") === false){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+// const email = "test!naver.com";
+// if(email.indexOf("@") === -1){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+// const email = "test!naver.com";
+// if(email.indexOf("@") === -1){
+//     console.log("올바른 이메일 형식이 아닙니다.");
+// }
+
+// const arr = [10, 20, 30];
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// const arr = [10, 20, 30];
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+
+// const arr = [10, 20, 30, 40];
+// arr.push(50);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.unshift(0);
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+
+// const arr = [10, 20, 30, 40];
+// arr.push(50);
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.unshift(0);
+// console.log(arr);
+// arr.shift();
+// console.log(arr);
+
+// const arr = [10, 20, 30, 40];
+// arr.forEach(function(v){
+//     console.log(v);
+// });
+// console.log(arr);
+
+// const arr = [10, 20, 30, 40];
+// arr.forEach(function(v){
+//     console.log(v);
+// });
+// console.log(arr);
+
+
+// const date = new Date();
+
+// const date1 = new Date(2022, 11, 25);
+// const date2 = new Date(2022, 11, 25, 18, 30, 50);
+// console.log(date);
+// console.log(date1);
+// console.log(date2);
+
+// const date1 = new Date("2022-12-25");
+// const date2 = new Date("2022/12/25/18:30:50");
+// console.log(date1);
+// console.log(date2);
+
+const date = new Date(2022, 11, 25, 18, 30, 50);
+const dateFormat = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}
+${date.getHours()}:$`
