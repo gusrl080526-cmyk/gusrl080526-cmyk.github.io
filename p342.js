@@ -913,6 +913,117 @@
 // console.log(date1);
 // console.log(date2);
 
-const date = new Date(2022, 11, 25, 18, 30, 50);
-const dateFormat = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}
-${date.getHours()}:$`
+// const date = new Date(2022, 11, 25, 18, 30, 50);
+// const dateFormat = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}
+// ${date.getHours()}:$`
+
+// const date = new Date();
+
+// const date1 = new Date(2022, 11, 25);
+// const date2 = new Date(2022, 11, 25, 18, 30, 50);
+// console.log(date);
+// console.log(date1);
+// console.log(date2);
+
+// const date1 = new Date("2022-12-25");
+// const date2 = new Date("2022/12/25/18:30:50");
+// console.log(date1);
+// console.log(date2);
+
+// const date = new Date(2022, 11, 25, 18, 30, 50);
+// const dateFormat = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}
+// ${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
+// console.log(dateFormat);
+
+// const date = new Date(2022, 11, 25, 18, 30, 50);
+// const dateFormat = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`
+// console.log(dateFormat);
+
+// const date = new Date().getTime();
+
+// const date1 = new Date('2022-12-23');
+// const date2 = new Date('2022-12-25');
+// const dateDiff = date2.getTime() - date1.getTime();
+// const interval = dateDiff / (24 * 60 * 60 *1000);
+// console.log(`두 날짜의 차이는 ${interval}일입니다.`);
+
+// const date1 = new Date(`2022-12-23`);
+// const date2 = new Date(`2022-12-28`);
+// const dateDiff = date2.getTime() - date1.getTime();
+// const interval = dateDiff / (24 * 60 * 60 * 1000);
+// console.log(`두 날짜의 차이는 ${interval}일입니다.`)
+
+// const floatNum = 10.52;
+// Math.floor(floatNum);
+// Math.ceil(floatNum);
+// Math.round(floatNum);
+
+// const floatNum = 10.52;
+// Math.floor(floatNum);
+// Math.ceil(floatNum);
+// Math.round(floatNum);
+
+// const random = Math.random();
+// console.log(random);
+
+// const random = Math.random();
+// console.log(random);
+
+// function getMaxRandom(max){
+//     return Math.floor(Math.random)() * (max+11);
+// }
+// const maxRandom = getMaxRandom((20)
+// console.log(maxRandom);
+
+// function getMaxRandom(max){
+//     return Math.floor(Math.random() * (max + 1));
+// }
+// const maxRandom = getMaxRandom(20);
+// console.log(maxRandom);
+
+// function getMaxRandom(max){
+//     return Math.floor(Math.random() * (max + 1));
+// }
+// const maxRandom = getMaxRandom(20);
+// console.log(maxRandom);
+
+// function getMinMaxRandom(min, max){
+//     return Math.floor(Math.random() * (max - min)) + 1 + min;
+// }
+// const maxRandom = getMinMaxRandom(10, 20);
+// console.log(maxRandom);
+
+// function getMinMaxRandom(min, max){
+//     return Math.floor(Math.random() * (max - min)) + 1 + min;
+// }
+// const maxRandom = getMinMaxRandom(10, 20);
+// console.log(maxRandom);
+
+
+// const arr = [10, 120, 30, 50, 20]
+// for(let i = 0; i < arr.length; i++){
+//     console.log(arr[i]);
+// }
+// arr.shift();
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+// arr.pop();
+// console.log(arr);
+
+<body>
+    <button onclick="printInfo()">window 객체 속성</button>
+    <script>
+        function printInfo(){
+            console.log(`웹 브라우저의 너비: ${window.innerWidth}`);
+            console.log(`웹 브라우저의 높이: ${window.innerHeight}`);
+            console.log(`웹 브라우저 창의 너비: ${window.outerWidth}`);
+            console.log(`웹 브라우저 창의 높이: ${window.outerHeight}`);
+            console.log(`웹 브라우저 창 위쪽 면과 모니터 사이의 간격: ${window.screenTop}/${window.screenY}`);
+            console.log
+        }
+    </script>
+</body>
+
