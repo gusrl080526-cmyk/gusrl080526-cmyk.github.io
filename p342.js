@@ -1027,3 +1027,106 @@
     </script>
 </body>
 
+
+<!-- <body>
+    <button onclick="printInfo()">window 객체 속성</button>
+    <script>
+        function printInfo(){
+            console.log(`웹 브라우저의 너비: ${window.innerWidth}`);
+            console.log(`웹 브라우저의 높이: ${window.innerHeight}`);
+            console.log(`웹 브라우저 창의 너비: ${window.outerWidth}`);
+            console.log(`웹 브라우저 창의 높이: ${window.outerHeight}`);
+            console.log(`웹 브라우저 창 위쪽 면과 모니터 사이의 간격: ${window.screenTop}/${window.screenY}`);
+            console.log(`웹 브라우저 창 왼쪽 면과 모니터 사이의 간격: ${window.screenLeft}/${window.screenX}`);
+            console.log(`웹 브라우저 창의 스크롤 가로 위치: ${window.scrollX}`);
+            console.log(`웹 브라우저 창의 스크롤 세로 위치: ${window.scrollY}`);
+        }
+    </script>
+</body> -->
+<!-- 
+ <body>
+    <button onclick="popup()">팝업</button>
+    <script>
+        function popup(){
+            window.open('popup.html', '팝업', 'width=200, height=100');
+        }
+        
+    </script>
+</body>
+
+<body>
+    <button onclick="window.close()">팝업 닫기</button>
+</body> -->
+
+<!-- window.scrollTo(100, 200);
+window.scrollBy(100, 200); -->
+
+<!-- window.scrollTo({left:100, top:200});
+window.scrollBy({left:100, top:200}); -->
+
+<!-- window.scrollTo({top:4000, behavior:'smooth'});
+window.scrollBy({top:600, behavior:'smooth'}); -->
+
+<!-- <body>
+    <button onclick="popup()">팝업</button>
+    <script>
+        function popup(){
+            window.open('popup.html','팝업', 'width=500, height=300');
+        }
+    </script>
+</body> -->
+
+<!-- <body>
+    <button onclick="popup()">팝업</button>
+    <script>
+        function popup(){
+            window.open('popup.html','팝업', 'width=500, height=300');
+        }
+    </script>
+</body> -->
+
+<!-- <body>
+    <button onclick="popup()">팝업</button>
+    <script>
+        function popup(){
+            window.open('popup.html','팝업', 'width=500, height=300');
+        }
+    </script>
+</body> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document Object Model</title>
+    </head>
+    <body>
+        <h1>header</h1>
+        <a href="#">link</a>
+    </body>
+</html> -->
+
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Document 0bject Model</title>
+    </head>
+    <body>
+        <h1>header</h1>
+        <a href="#">link</a>
+    </body>
+</html> -->
+
+<!-- document.firstChild;
+document.firstElementChild; -->
+
+<body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    <script>
+        const el = document.getElementById("title");
+        console.log(el);
+    </script>
+</body>
