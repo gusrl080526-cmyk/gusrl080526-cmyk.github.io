@@ -1130,3 +1130,78 @@ document.firstElementChild; -->
         console.log(el);
     </script>
 </body>
+
+<!-- document.firstChild;
+document.firstElementChild; -->
+
+<!-- <body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    <script>
+        const el = document.getElementById("title");
+        console.log(el);
+        const classEl = document.getElementsByClassName("text");
+        console.log(classEl);
+    
+    const tagEls = document.getElementsByTagName("p");
+    console.log(tagEls);
+    </script>
+</body> -->
+
+
+<!-- <body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    <script>
+        // const el = document.getElementById("title");
+        // console.log(el);
+        // const classEl = document.getElementsByClassName("text");
+        // console.log(classEl);
+        // const tagEls = document.getElementsByTagName("p");
+        // console.log(tagEls);
+
+        const classEl = document.getElementsByClassName("text");
+        console.log(classEl[0]);
+        console.log(classEl[1]);
+        const tagEls = document.getElementsByTagName("p");
+        console.log(tagEls[0]);
+        console.log(tagEls[1]);
+    </script>
+</body> -->
+
+<!-- <body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    <script>
+        const el = document.getElementById("title");
+        console.log(el);
+        const classEl = document.getElementsByClassName("text");
+        console.log(classEl);
+        const tagEls = document.getElementsByTagName("p");
+        console.log(tagEls);
+
+        </script>
+</body> -->
+<!-- 
+<body>
+    <div class="box-1">
+        <p class="text">text-1</p>
+        <p class="text">text-2</p>
+    </div>
+    <div class="box-2">
+    <p class="text">text-3</p>
+    <p class="text">text-4</p>
+    </div>
+    <script> -->
+        // const el = document.querySelector(".box-1");
+
+        // const el = document.getElementsByClassName("box-1")[0].children;
+        // console.log(el);
+
+//         const el = document.querySelectorAll(".box-1 .text");
+//         console.log(el);
+<!-- //     </script>
+// </body> -->
