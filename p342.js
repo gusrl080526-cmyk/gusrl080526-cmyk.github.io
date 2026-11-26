@@ -1205,3 +1205,90 @@ document.firstElementChild; -->
 //         console.log(el);
 <!-- //     </script>
 // </body> -->
+
+         <!-- <body>
+    <h1 id="title">title</h1>
+    <p class="text">text-1</p>
+    <p class="text">text-2</p>
+    <script>
+        const el = document.getElementById("title");
+        console.log(el);
+        const classEl = document.getElementsByClassName("text");
+        console.log(classEl);
+        const tagEls = document.getElementsByTagName("p");
+        console.log(tagEls);
+
+        </script>
+</body> -->
+<!-- 
+<body>
+    <div class="box-1">
+        <p class="text">text-1</p>
+        <p class="text">text-2</p>
+    </div>
+    <div class="box-2">
+    <p class="text">text-3</p>
+    <p class="text">text-4</p>
+    </div>
+    <script> -->
+        // const el = document.querySelector(".box-1");
+
+        // const el = document.getElementsByClassName("box-1")[0].children;
+        // console.log(el);
+
+//         const el = document.querySelectorAll(".box-1 .text");
+//         console.log(el);
+<!-- //     </script>
+// </body> -->
+
+<!-- <body>
+    <div class="box-1">
+        <p class="text">text-1</p>
+        <p class="text">text-2</p>
+    </div>
+    <div class="box-2">
+        <p class="text">text-3</p>
+        <p class="text">text-4</p>
+    </div>
+</body>
+<script>
+    const el = document.querySelectorAll(".box-1 .text");
+    console.log(el);
+</script> -->
+
+<!-- <body>
+    <div class="box1">
+        <p id="text">Select Text</p>
+    </div>
+</body>
+<script>
+    const el = document.querySelectorAll("div")[0].firstElementChild
+    console.log(el);
+</script> -->
+
+<!-- 
+<p id="title">Hello, <span style="display:none;">Javascript!</span></p>
+
+document.getElementById("title").textContent;
+document.getElementById("title").innerText;
+document.getElementById("title").innerHTML; -->
+
+<!-- <p id="textContent"></p>
+<p id="innerText"></p>
+<p id="innerHTML"></p>
+<script>
+    document.querySelector("#textContent").textContent = `<strong>textContent</strong> 속성`;
+    document.querySelector("#innerText").innerText = `<strong>innerText</strong>속성`;
+    document.querySelector("#innerHTML").innerHTML = `<strong>innerHTML</strong>속성`;
+</script> -->
+
+<!-- <p id="text">text</p>
+<script>
+    const pEl = document.querySelector("p");
+    pEl.style.color = "red";
+</script> -->
+
+<p id="text">text</p>
+<script>
+    const pEl = document.querySelector("p")
+</script>
